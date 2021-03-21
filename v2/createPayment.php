@@ -61,11 +61,11 @@ if(isset($_POST['englishName']) && isset($_POST['token'])){
     $paymentId = $paymentBaseId ."-". $paymentNum;
 
     // for test:
-    $amount = 1000;
-    $api_key = tokens::PAYPING_TEST;
+//    $amount = 1000;
+//    $api_key = tokens::PAYPING_TEST;
 
     // real try:
-//    $api_key = tokens::PAYPING_CUKI;
+    $api_key = tokens::PAYPING_CUKI;
 
     $info_params = array(
         "amount" => $amount,
