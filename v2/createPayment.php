@@ -73,7 +73,7 @@ if(isset($_POST['englishName']) && isset($_POST['token'])){
         "payerName" => $costumer_name,
         "description"=>"",
         "clientRefId"=>$paymentId,
-        "returnUrl" => 'https://pay.cuki.ir/returnipg.php',
+        "returnUrl" => 'https://pay.cuki.ir/v2/validatePayReturnIPG.php',
     );
 
 
